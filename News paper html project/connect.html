@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="sreejith s s from mashupstack" />
+    <meta name="description" content="This is about us page" />
+    <link
+      rel="shortcut icon"
+      href="./static/images/MashupStack-logo-white.png"
+      type="image/x-icon"
+    />
+    <title>Connect with us</title>
+  </head>
+  <body>
+    <header>
+      <center>
+        <h1 style="margin-bottom: 0">
+          THE
+          <img
+            src="./static/images/HinduImage.png"
+            alt="Hindu logo image"
+            title="hindu logo image"
+            style="width: 70px"
+          />
+          HINDU
+        </h1>
+        <center>
+          <small style="font-size: xx-small; color: red"
+            >INDIAN NATIONAL NEWSPAPER SINCE 1901</small
+          >
+        </center>
+      </center>
+      <hr />
+    </header>
+    <nav>
+      <center>
+        <a href="./news-website.html"><small>News listing page</small></a>
+        &nbsp; <a href="./about.html"><small>About us</small></a
+        >&nbsp; <a href="#"><small>Connect with us</small></a>
+      </center>
+    </nav>
+    <hr />
+    <main>
+      <center>
+        <fieldset style="width: 30%">
+          <legend align="center">
+            <h2>Contact Us</h2>
+          </legend>
+          <form action="" method="get" align="center">
+            <label for="name">Name</label><br />
+            <input
+              placeholder="Enter your name here..."
+              type="text"
+              id="name"
+              style="width: 90%"
+              maxlength="25"
+              required
+            /><br />
+            <label for="mob">Mobile number</label><br />
+            <input
+              type="tel"
+              name="mobile-number"
+              id="mob"
+              style="width: 90%"
+              maxlength="10"
+              minlength="10"
+              required
+            />
+            <br />
+            <label for="communication">Choose your type of communication</label><br />
+            <select name="communication" id="communication" style="width: 90%" required>
+              <option value="">Choose your type</option>
+              <option value="sales">Sales</option>
+              <option value="service">Service</option>
+              <option value="enquiry">Enquiry</option></select
+            ><br /><br />
+            <label for="notes">Comment your thought here...</label><br />
+            <textarea
+              placeholder="We are hearing you..."
+              name="notes"
+              id="notes"
+              cols="46"
+              rows="5"
+            ></textarea
+            ><br /><br />
+            <input type="submit" value="SUBMIT" style="width: 90%" />
+            <br><br>
+          </form>
+        </fieldset>
+      </center>
+    </main>
+    <footer>
+      <center>
+        <small>2024&copy;hindu.com</small>
+      </center>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Testing</title>
+</head>
+<body>
+ <fieldset>
+  <legend>Login</legend>
+  <form action="" method="post">
+    <label for="fname">First name</label><br>
+    <input type="text" name="first name" id="fname"><br>
+    <label for="lname">Last name</label><br>
+    <input type="text" id="lname" name="Last name"><br>
+    <label for="age">Age</label><br>
+    <input type="number" name="age" id="age" min="18" max="35" step="2"><br>
+    <label for="dob">DOB</label><br>
+    <input type="date" name="dob" id="dob">
+    <br><br>
+    <label for="password">Password</label><br><br>
+    <input type="password" name="password" placeholder="Password" maxlength="6"  minlength="4" id="password">
+   <label for="gender">Select gender</label>
+   <input type="radio" name="gender" value="male" id="gender"/>male
+   <input type="radio" name="gender" value="female" id="gender"/>female<br>
+   <label for="tickets">Select number of tickets</label><br />
+   <input type="radio" name="tickets" id="tickets" required/>1 &nbsp;
+   <input type="radio" name="tickets" id="tickets" checked />2 &nbsp;
+   <input type="radio" name="tickets" id="tickets" />3 &nbsp;<br /><br />
+  </form>
+ </fieldset>
+</body>
+</html>

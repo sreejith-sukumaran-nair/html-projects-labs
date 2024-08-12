@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>table test</title>
+</head>
+<body>
+  <table border="1" cellpadding="10px">
+    <tr>
+      <th>col 1</th>
+      <th>col 2</th>
+      <th>col 3</th>
+    </tr>
+    <tr>
+      <td rowspan="2">Row 1 cell 1</td>
+      <td>Row 1 cell 2</td>
+      <td>Row 1 cell 3</td>
+    </tr>
+    <tr>
+      <td>Row 2 cell 2</td>
+      <td>Row 2 cell 3</td>
+    </tr>
+    <tr>
+      <td align="center" colspan="3">row 3 </td>
+    </tr>
+  </table>
+  <form action="/action_page.php">
+    <label for="mailid">Search Mail Address:</label>
+    <input type="search" id="mailid" name="mailid">
+    <label for="points">Points:</label>
+    <input type="number" id="points" name="points" step="3">
+    <input type="submit">
+</form>
+</body>
+</html>

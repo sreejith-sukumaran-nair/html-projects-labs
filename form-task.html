@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="sreejith s s" />
+    <meta
+      name="description"
+      content="This website contain form task which given by mashupstack"
+    />
+    <link
+      rel="shortcut icon"
+      href="./static/images/MashupStack-logo-white.png"
+      type="image/x-icon"
+    />
+    <title>Form task</title>
+  </head>
+
+  <body>
+    <center>
+      <fieldset style="width: 30%">
+        <legend align = "center">
+          <h2>Sign up</h2>
+        </legend>
+        <form action="" method="get" align="left">
+          <label for="name">Name</label><br />
+          <input
+            placeholder="Enter your name here..."
+            type="text"
+            id="name"
+            style="width: 90%"
+            maxlength="25"
+            required
+          /><br />
+          <label for="email">Email</label><br />
+          <input
+            type="email"
+            name="email"
+            id="email"
+            style="width: 90%"
+            value="test@example.com"
+            required
+            autofocus
+          /><br />
+          <label for="password">Password</label><br />
+          <input
+            type="password"
+            name="password"
+            id="password"
+            style="width: 90%"
+            minlength="6"
+            required
+          /><br /><br />
+          <label for="category">Choose your designation</label><br />
+          <select name="category" id="category" style="width: 90%" required>
+            <option value="">Choose your designation</option>
+            <option value="student">Student</option>
+            <option value="employee">Employee</option>
+            <option value="freelancer" selected>Freelancer</option></select
+          ><br /><br />
+          <label for="event-date">Select event date</label>
+          <input type="date" name="date" id="event-date" required/><br /><br />
+          <label for="tickets">Select number of tickets</label><br />
+          <input type="radio" name="tickets" id="tickets" required/>1 &nbsp;
+          <input type="radio" name="tickets" id="tickets" checked />2 &nbsp;
+          <input type="radio" name="tickets" id="tickets" />3 &nbsp;<br /><br />
+          <label for="payment">Choose mode of payment</label><br />
+          <input type="checkbox" name="payment" id="payment" required />Online payment<br /><br />
+          <label for="notes">Comment your thought here...</label><br />
+          <textarea
+            placeholder="We are hearing you..."
+            name="notes"
+            id="notes"
+            cols="46"
+            rows="5"
+          ></textarea
+          ><br /><br />
+          <input type="submit" value="SUBMIT" style="width: 90%" />
+        </form>
+      </fieldset>
+    </center>
+  </body>
+</html>
